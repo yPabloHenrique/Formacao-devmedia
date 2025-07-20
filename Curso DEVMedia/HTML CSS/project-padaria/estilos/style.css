@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Verdana";
+}
+header > img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+header > nav {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+header > nav > a {
+    padding: 10px;
+    color: rgb(117, 79, 8);
+}
+main {
+    border-top: 1px solid rgb(117, 79, 8);
+    display: block;
+    margin: 0 auto;
+    max-width: 768px;
+}
+section {
+    text-align: center;
+    padding: 20px;
+}
+.sobre h1 {
+    font-size: 1.8em;
+}
+.sobre h2 {
+    color: orange;
+    font-weight: normal;
+}
+.produtos {
+    background-color: rgb(163, 111, 15);
+    color: white;
+}
+h1, h2, h3, h4, p {
+    padding: 10px;
+}
+img {
+    width: 100%;
+    padding: 20px;
+}
+span {
+    font-weight: bold;
+}
+p {
+    line-height: 30px;
+}

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+h3, h4, h5 {
+    font-size: 1.3em;
+}
+p {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 25px;
+}
+ul {
+    line-height: 25px;
+}
+.header {
+    padding: 20px;
+    background-color: rgb(127, 204, 255);
+}
+.header img {
+    padding-bottom: 20px;
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+.header p {
+    text-align: center;
+}
+.header a {
+    color: black;
+    margin: 20px;
+}
+.banner-ap {
+    padding: 20px;
+}
+.banner-ap img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.ap-home {
+    padding: 20px;
+}
+.ap-home h2 {
+    font-weight: normal;
+    color: rgb(127, 187, 255);
+    line-height: 40px;
+}
+.ap-home img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+}
+.ap-home p {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+.ap-home span {
+    font-weight: bold;
+    color: rgb(75, 159, 255);
+}
+.servicos {
+    background-color: rgb(127, 187, 255);
+    color: white;
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.servicos p {
+    text-align: center;
+    padding: 60px 0px;
+}
+.servicos span {
+    font-weight: bold;
+    color: yellow;
+}
+.servicos ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    margin: 20px;
+}
+.corretores {
+    padding: 20px;
+}
+.corretores h4 {
+    padding: 20px;
+    color: rgb(127, 187, 255);
+}
+.corretores img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 20px;
+}
+.corretores p {
+    padding: 20px;
+}
+.corretores span {
+    color: rgb(127, 187, 255);
+    font-weight: bold;
+}
+.contato {
+    padding: 20px;
+    background-color: rgb(127, 187, 255);
+}
+.contato h5 {
+    color: white;
+    padding: 20px;
+}
+.contato iframe {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+.contato p {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0.8em;
+    background-color: black;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+.contato p span {
+    color: yellow;
+}
+.contato ul {
+    margin-top: 20px;
+}
+.contato li {
+    list-style: none;
+    text-align: center;
+}
+.contato li a {
+    background-color: white;
+}

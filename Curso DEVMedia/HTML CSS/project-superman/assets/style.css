@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+  --sb-track-color: #989898;
+  --sb-thumb-color: #000000;
+  --sb-size: 20px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 20px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
+.imagens-pai {
+  --sb-track-color: #989898;
+  --sb-thumb-color: #000000;
+  --sb-size: 20px;
+}
+
+.imagens-pai::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+.imagens-pai::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 20px;
+}
+
+.imagens-pai::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 20px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .imagens-pai {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+p {
+    font-size: 1.3em;
+    max-width: 1000px;
+    line-height: 25px;
+}
+section {
+    padding: 20px;
+}
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+nav > a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.8em;
+    color: white;
+}
+.banner {
+    height: 100vh;
+    display: block;
+    max-height: 990px;
+    width: 100%;
+    background-image: url("../img/capa.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.banner > img {
+    width: 100%;
+}
+.sinopse {
+    padding: 20px;
+}
+.sinopse > h1, h2, p {
+    text-align: center;
+    padding: 20px;
+}
+.sinopse > p {
+    margin: 0 auto;
+    text-indent: 10px;
+    max-width: 1000px;
+    font-size: 1.3em;
+}
+.disponibilidade {
+    background-color: rgb(53, 11, 92);
+    padding: 20px;
+    color: white;
+}
+.disponibilidade > img {
+    display: block;
+    box-shadow: -5px -5px 25px 12px white;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+.disponibilidade > p {
+    margin: 0 auto;
+    display: block;
+    max-width: 1000px;
+}
+.disponibilidade > h2 {
+    margin-bottom: 40px;
+}
+.temporadas-pai {
+    display: flex;
+    flex-direction: column;
+}
+.temporadas > h1 {
+    text-align: center;
+}
+.temporadas-card {
+    background-color: rgb(226, 226, 226);
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: -5px 10px 25px 12px gray;
+}
+.temporadas-card > h2, p {
+    text-align: left;
+    max-width: 100%;
+}
+.imagens {
+    background-color: rgb(53, 11, 92);
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
+.imagens > h1 {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 20px;
+}
+.imagens > p {
+    max-width: 600px;
+    margin: auto;
+}
+.imagens-pai {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.imagens-pai > img {
+    max-width: 250px;
+    margin-left: 20px;
+}
+.footer {
+    background-color: rgb(53, 11, 92);
+    color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 20px 20px;
+}
+.footer > h1 {
+    text-align: center;
+}
