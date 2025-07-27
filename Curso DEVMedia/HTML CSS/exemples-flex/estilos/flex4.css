@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background-image: url("../img-flex04/cafeteria.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tabela-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tabela {
+    width: 100%;
+    max-width: 768px;
+}
+h2 {
+    margin: 30px;
+}
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+div {
+    height: 1px;
+    background-color: white;
+    flex: 1 1 auto;
+    gap: 5px;
+}
+li h3 {
+    flex: 0 1 80px;
+}
+li span, p {
+    flex: 0 1 110px;
+    text-align: right;
+}
+.destaque {
+    color: #c4a47c;
+    font-weight: bold;
+}

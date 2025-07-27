@@ -16,6 +16,7 @@ header {
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+    background-color: white;
 }
 
 header > .logo {
@@ -51,15 +52,14 @@ header > .nav > nav > a {
     color: black;
     font-weight: 600;
 }
-main { 
+body { 
     background-color: rgb(77, 165, 248);
-    background-size: cover;
 }
 .banner {
     color: white;
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     margin: auto;
     max-width: 1024px;
