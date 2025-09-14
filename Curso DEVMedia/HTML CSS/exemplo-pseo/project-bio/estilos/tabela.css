@@ -14,19 +14,19 @@ body {
 }
 .container {
     display: block;
-    margin: 50px auto;
+    margin: 20px auto;
     max-width: 768px;
     text-align: center;
 }
-h1 {
+caption {
     color: #fff;
     font-size: 36px;
     text-shadow: 5px 2px 4px #000000cb;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 table {
     display: block;
-    margin: 20px auto;
+    margin: 50% auto;
 }
 tr:nth-child(odd) {
     background-color: rgba(255, 255, 255, 0.801);
