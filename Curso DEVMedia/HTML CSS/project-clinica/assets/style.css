@@ -178,7 +178,7 @@ tr:nth-child(even) {
 .box-table {
     display: flex;
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 10px 10px 10px 10px;
 }
 .img-table > img {
     width: 380px;
