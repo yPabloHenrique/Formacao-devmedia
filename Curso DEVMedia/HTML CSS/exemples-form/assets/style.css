@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav > a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    margin-left: 20px;
+}
+main {
+    background-image: url("../img/capa.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+}
+.banner {
+    background-color: #00000086;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+.banner h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.banner p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+.banner a {
+    padding: 20px;
+    background-color: #ff4c4c;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.about p {
+    font-size: 1.1em;
+    text-align: left;
+    color: #666;
+    line-height: 1.6;
+    padding: 20px 0px;
+}
+span {
+    border-left: 2px solid #000000;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.contact {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.contact h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+.contact p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+}
+input, select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
