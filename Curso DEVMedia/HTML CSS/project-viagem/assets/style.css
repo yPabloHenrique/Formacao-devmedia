@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1024px;
+    margin: 0 auto;
+    color: blueviolet;
+}
+header img {
+    width: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.banner {
+    background-image: url('../img/bahia.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    color: #fff;
+    padding: 10px;
+}
+.form {
+    background-color: white;
+    color: black;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+.form-title img {
+    width: 30px;
+}
+fieldset {
+    display: flex;
+    flex-direction: row;
+}
+.localidade {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 20px;
+}
+.ida-vai {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.volta {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+label {
+    font-weight: bold;
+    margin: 5px 0px;
+}
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.infantil {
+    margin: 30px 0px;
+}
+.infantil input {
+    margin: 5px;
+}
+.preferencias input {
+    margin: 5px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.ofertas {
+    margin: 50px 0px;
+    text-align: center;
+}
+.box-pai {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px 0px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.box-pai p {
+    background-color: #1f1f1f;
+    margin: -5px 0px;
+    padding: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+}
+.box-maior {
+    border-radius: 10px;
+    max-width: 450px;
+    width: 100%;
+}
+.box-maior img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+.box-menor {
+    border-radius: 10px;
+    max-width: 350px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.box-menor img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+.natureza-duas-imagens {
+    width: 100%;
+    height: auto;
+    max-width: 1024px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.natureza-imagem {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.natureza-imagem img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.natureza-imagem div {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.natureza-imagem h3 {
+    font-size: 16px;
+}
+
+.natureza-imagem p {
+    color: grey;
+    font-size: 14px;
+    margin: 15px 0 0 0px;
+}
+footer {
+    width: 100%;
+    background: #5d15d1;
+    margin: 32px 0 0 0;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+.rodape-conteudo h2 {
+    color: #fff;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+}
+
+.rodape-conteudo div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.rodape-conteudo img {
+    width: 18px;
+}
+
+.rodape-conteudo span {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
