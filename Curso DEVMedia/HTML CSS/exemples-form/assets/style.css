@@ -10,11 +10,12 @@
 }
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 1024px;
     margin: 0 auto;
     padding: 20px;
+    flex-wrap: wrap;
 }
 nav > a {
     text-decoration: none;
@@ -26,13 +27,13 @@ main {
     background-image: url("../img/capa.jpg");
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 600px;
     background-attachment: fixed;
 }
 .banner {
     background-color: #00000086;
     color: white;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,8 +133,14 @@ button {
     background-color: #ff4c4c;
     color: white;
     border: none;
+    cursor: pointer;
     font-weight: 600;
     border-radius: 10px;
     margin-top: 20px;
     padding: 10px;
+}
+@media screen and (min-width: 425px) {
+    header {
+        justify-content: space-between;
+    }
 }

@@ -14,3 +14,8 @@
         display: block;
     }
 }
+@media screen and (max-width: 630px) {
+    header {
+        justify-content: center;
+    }
+}
