@@ -25,12 +25,12 @@ programa
 			// Caso o usuário digitar "Dólar"
 			se (choice == "Dólar") {
 				dolar = n * 5.34
-				escreva("\nO valor digitado R$", n, " atualmente está US$", dolar, " no território Norte-Americano. \n")
+				escreva("\nO valor digitado R$"+ n +" atualmente está US$"+ dolar +" no território Norte-Americano. \n")
 			}
 			// Caso o usuário digitar "Euro"
 			se (choice == "Euro") {
 				euro = n * 6.24
-				escreva("\nO valor digitado R$", n, " atualmente está £", euro, " no território Europeu. \n")
+				escreva("\nO valor digitado R$"+ n +" atualmente está £"+ euro +" no território Europeu. \n")
 			}
 			// Se o usuário digitar "Real"
 			se (choice == "Real") {
@@ -39,19 +39,19 @@ programa
 				// Se caso o usuário digitar "Real" e na conversão se transformar em "Dólar"
 				se (choice == "Dólar") {
 					dolar = n / 5.34
-					escreva("\nO valor digitado US$", n, " atualmente está R$", dolar, " no território Brasileiro. \n")
+					escreva("\nO valor digitado US$"+ n +" atualmente está R$"+ dolar +" no território Brasileiro. \n")
 				}
 				// Se caso o usuário digitar "Real" e na conversão se transformar em "Euro"
 				se (choice == "Euro") {
 					euro = n / 6.24
-					escreva("\nO valor digitado £", n, " atualmente está R$", euro, " no território Brasileiro. \n")
+					escreva("\nO valor digitado £"+ n +" atualmente está R$"+ euro +" no território Brasileiro. \n")
 				}
 				
 			}
 		}
 		// Caso a pessoa digitar 2
 		se (opcao == "2") {
-			escreva("O programa está encerrado.")
+			escreva("O programa está encerrado. Caso queira fazer uma conversão, execute o programa novamente.")
 			
 		}
 	}
@@ -61,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 1741; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
