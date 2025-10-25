@@ -44,12 +44,6 @@ programa
 
 			escreva("O valor de R$"+valor+" com "+porcentagem+"% de juros, a compra fica no total de R$"+resultado+"\n")
 		}
-		se (opcao != "1") {
-			escreva("Opção inválida.")
-		}
-		se (opcao != "2") {
-			escreva(" Tente novamente.")
-		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -57,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1278; 
+ * @POSICAO-CURSOR = 1159; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
